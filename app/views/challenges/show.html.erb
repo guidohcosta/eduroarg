@@ -4,6 +4,12 @@
     <p><%= paragraph %></p>
   <% end %>
 
+  <% if @challenge.url == 'TRANSFORMAR' %>
+    <div id="imagem-dica">
+      <img src="<%= image_path('dica-final.png') %>" alt="dica para resolver o mistério" />
+    </div>
+  <% end %>
+
   <div class="formulario-missao">
     <%= form_for challenges_path, method: :patch do |form| %>
       <%= form.text_field :resposta, name: :resposta %>
