@@ -34,7 +34,23 @@
     font-style: italic;
   }
 
+  .player-counter {
+    margin-bottom: 6vw;
+    h2 {
+      text-decoration: underline;
+      font-size: 6vw;
+      margin-bottom: 0px;
+    }
+  }
+
+  span.player-counter-text {
+    line-height: 4vw;
+    font-size: 4vw;
+    text-decoration: underline;
+  }
+
   .icons {
+    display: none;
     button {
       padding: 10px;
       background-color: #292929;

@@ -63,3 +63,13 @@ A última pista é: Busque a sala “Arte na escola”* e procure esse símbolo.
     custom: true
   }).
   find_or_create_by(url: 'TRANSFORMAR')
+Challenge.
+  create_with({
+    title: 'YOUDIDIT',
+    description: "FASE FINAL",
+    password: nil,
+    redirect_url: nil,
+    count: 0,
+    custom: true
+  }).
+  find_or_create_by(url: 'youdidit')

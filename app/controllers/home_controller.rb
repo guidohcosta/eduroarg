@@ -6,7 +6,7 @@ class HomeController < ApplicationController
   def guess
     @challenge = Challenge.find_by(id: params['id'])
 
-    if params['resposta'] == @challenge.password
+    if params['resposta'].upcase == @challenge.password.upcase
       @challenge.count += 1
       @challenge.save
 
