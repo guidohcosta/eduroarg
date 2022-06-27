@@ -1,0 +1,59 @@
+// Place all the styles related to the challenge controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#challenges {
+  margin-top: 10vw;
+  font-family: 'Times New Roman';
+  // background-image: url('images/fundo-inicio-fim.png');
+  background-repeat: repeat;
+  text-align: center;
+
+  h1 {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 6vw;
+  }
+
+  p {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 3vw;
+    // text-decoration: underline;
+    font-style: italic;
+  }
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  p.final-text {
+    font-size: 4vw;
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  .icons {
+    button {
+      padding: 10px;
+      background-color: #292929;
+      border-color: #292929;
+      border-radius: 60px;
+      width: 64px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+
+    .map-icon img {
+      height: 35px;
+    }
+
+    .hint-icon img {
+      height: 35px;
+    }
+  }
+}
+
+body {
+  background-image: url(image_path('fundo-inicio-fim.png'));
+}

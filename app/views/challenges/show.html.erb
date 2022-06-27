@@ -1,0 +1,21 @@
+<div id="challenges">
+  <h1><%= @challenge.url %></h1>
+  <% @challenge.description.split("\n").each do |paragraph| %>
+    <p><%= paragraph %></p>
+  <% end %>
+
+  <div class="formulario-missao">
+    <%= form_for challenges_path, method: :patch do |form| %>
+      <%= form.text_field :resposta, name: :resposta %>
+    <% end %>
+  </div>
+
+  <div class="icons">
+    <button class="map-icon">
+      <img src="<%= image_path('icone-mapa.png') %>" />
+    </button>
+    <button class="hint-icon">
+      <img src="<%= image_path('interroga-icone.png') %>" />
+    </button>
+  </div>
+</div>

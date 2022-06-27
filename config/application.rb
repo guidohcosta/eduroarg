@@ -31,5 +31,10 @@ module SemioticaArg
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.action_dispatch.default_headers = {
+      'X-Frame-Options' => 'ALLOWALL',
+      'X-XSS-Protection' => '1; mode=block',
+      'X-Content-Type-Options' => 'nosniff'
+    }
   end
 end

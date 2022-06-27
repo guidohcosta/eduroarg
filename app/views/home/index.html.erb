@@ -1,0 +1,21 @@
+<div id="challenges">
+  <p>Hey, Hey... você aí... Não acredito, finalmente!!! Alguém me encontrou... Meu nome é Eduardo, eu costumava ser um aluno daqui da Unesp, até que aconteceu... que aconteceu... Bem não lembro direito o que aconteceu, não sei como fiquei preso aqui. Minha memória está dAnIficaDA... preciso descobrir o que aconteceu comigo, por favor, EU PRECISO DE SUA AJUDA!</p>
+  <p>Meu inconsciente está querendo se comunicar comigo, ele diz que tem uma forma de desbloquear minhas lembranças. Meus fragmentos de memórias estão espalhados pelo campus, preciso que você vá até a localização e descubra a senha que desbloqueia a próxima memória...1</p>
+  <p>A pista que eu tenho é: Vá até Rádio Universitária Unesp FM 105.7, e ache a placa de comemoração dos 30 anos da UNESP FM, nela procure a palavra que complete a frase – “Nos 30 anos da Unesp FM, desejamos que esta árvore aqui plantada inspire nossa luz, nossa água e nossos... ”</p>
+
+  <div class="formulario-missao">
+    <%= form_with url: home_guess_path, method: :post do |form| %>
+      <%= form.text_field :resposta, name: :resposta %>
+      <%= form.hidden_field :id, name: :id, value: @challenge.id %>
+    <% end %>
+  </div>
+
+  <div class="icons">
+    <button class="map-icon">
+      <img src="<%= image_path('icone-mapa.png') %>" />
+    </button>
+    <button class="hint-icon">
+      <img src="<%= image_path('interroga-icone.png') %>" />
+    </button>
+  </div>
+</div>
