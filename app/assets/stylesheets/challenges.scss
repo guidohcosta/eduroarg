@@ -16,9 +16,10 @@
   }
 
   p {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5vw;
+    margin-left: 5vw;
     font-size: 3vw;
+    text-shadow: 1px 1px black;
     // text-decoration: underline;
     font-style: italic;
   }
@@ -55,5 +56,5 @@
 }
 
 body {
-  background-image: url(image_path('fundo-inicio-fim.png'));
+  background-image: url(image_path('tela-de-fundo-FINAL-E-INICIAL.webp'));
 }
