@@ -5,7 +5,6 @@
 #challenges {
   margin-top: 10vw;
   font-family: 'Times New Roman';
-  // background-image: url('images/fundo-inicio-fim.png');
   background-repeat: repeat;
   text-align: center;
 
@@ -75,6 +74,10 @@
   }
 }
 
-body {
+body.challenge-body {
+  background-image: url(image_path('tela-fundo-meio.jpg'));
+}
+
+body.normal-body {
   background-image: url(image_path('tela-de-fundo-FINAL-E-INICIAL.webp'));
 }

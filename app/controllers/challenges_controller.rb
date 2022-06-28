@@ -1,4 +1,6 @@
 class ChallengesController < ApplicationController
+  layout 'challenge'
+
   def show
     @challenge = Challenge.find_by(url: params[:id])
   end
