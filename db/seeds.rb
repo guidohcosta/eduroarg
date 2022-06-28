@@ -42,7 +42,9 @@ A terceira pista é: Vá até a caixa d’agua, procure pelo par de números que
 Challenge.
   create_with({
     title: '14-01',
-    description: "Lembrei! Obrigado! Meu projeto estava quase pronto! Faltava apenas expor ao mundo e celebrar o lançamento. Então decidi convidar minha querida orientadora para comemorar e agradecê-la, fomos até o laboratório para celebrar. Depois de algumas bebidas a Professora Terena trancou a porta, mudou sua postura e tom de voz... o que me deixou preocupado, nunca tinha visto ela assim, então tentei acalmá-la, mas não surtiu efeito... ela ficou mais nervosa e começou a gritar coisas do tipo: “Esse projeto não é seu de verdade, você jamais pensaria nele sem mim! Você não é o criador, eu sou a origem... ele é meu... MEU!” Assustado e confuso tentei correr para fora do laboratório, mas Terena pegou um controle, apertou uns botões ativando luzes de uma máquina que estava no canto da sala. Repentinamente a máquina disparou um fecho de luz na minha direção e... e... ficou tudo branco... A partir de agora fica difícil descrever... pois minha mente se tornou “flutuante”, meus sentidos não eram mais os mesmos, eu não possuía mais corpo...
+    description: "Lembrei! Obrigado! Meu projeto estava quase pronto! Faltava apenas expor ao mundo e celebrar o lançamento. Então decidi convidar minha querida orientadora para comemorar e agradecê-la, fomos até o laboratório para celebrar.
+    Depois de algumas bebidas a Professora Terena trancou a porta, mudou sua postura e tom de voz... o que me deixou preocupado, nunca tinha visto ela assim, então tentei acalmá-la, mas não surtiu efeito... ela ficou mais nervosa e começou a gritar coisas do tipo: “Esse projeto não é seu de verdade, você jamais pensaria nele sem mim! Você não é o criador, eu sou a origem... ele é meu... MEU!”
+    Assustado e confuso tentei correr para fora do laboratório, mas Terena pegou um controle, apertou uns botões ativando luzes de uma máquina que estava no canto da sala. Repentinamente a máquina disparou um fecho de luz na minha direção e... e... ficou tudo branco... A partir de agora fica difícil descrever... pois minha mente se tornou “flutuante”, meus sentidos não eram mais os mesmos, eu não possuía mais corpo...
 mas não lembro do que veio a seguir... Talvez a resposta esteja na próxima senha, encontre ela para mim por favor!
 A quarta pista é: No corredor dos Laboratórios da FEB, encontre a placa de formandos que complete a frase - “A NOSSA CAPACIDADE DE ... O MUNDO PARECE MENOR DO QUE A GENTE GOSTARIA, MAS É MUITO MAIOR DO QUE SE IMAGINA”",
     password: 'TRANSFORMAR',
@@ -54,9 +56,11 @@ A quarta pista é: No corredor dos Laboratórios da FEB, encontre a placa de for
 Challenge.
   create_with({
     title: 'TRANSFORMAR',
-    description: "Agora faz sentido! Na tentativa de Terena de me desintegrar ela jogou minha consciência para uma rede de roaming, algo que ninguém havia teorizado antes, foi completamente acidental. Passou uns dias para eu entender minha nova condição, até que consegui entrar em contato com mundo real, mas infelizmente minha antiga orientadora foi quem recebeu a mensagem.2 Com medo de ser descoberta, Terena, tentou me apagar da rede. O ataque virtual foi muito forte, porém não me deletou, apenas fragmentou em vários pedaços pelo campus da Unesp. Nesse momento eu estava pequeno demais para ser detectado, então ela achou que teve sucesso na minha execução e tempos depois acabou lançando meu projeto em seu próprio nome. Finalmente sei o que aconteceu comigo, e agora preciso do meu último fragmento para enfrentar Terena, e levá-la à justiça!
-Obrigado por me ajudar! Mas preciso de você mais uma última vez, ache a senha que falta para me completar!
-A última pista é: Busque a sala “Arte na escola”* e procure esse símbolo... e me diga quantas bolas salientes tem no anel exterior (Concreto)",
+    description: "Agora faz sentido! Na tentativa de Terena de me desintegrar ela jogou minha consciência para uma rede de roaming, algo que ninguém havia teorizado antes, foi completamente acidental.
+    Passou uns dias para eu entender minha nova condição, até que consegui entrar em contato com mundo real, mas infelizmente minha antiga orientadora foi quem recebeu a mensagem.2 Com medo de ser descoberta, Terena, tentou me apagar da rede. O ataque virtual foi muito forte, porém não me deletou, apenas fragmentou em vários pedaços pelo campus da Unesp. Nesse momento eu estava pequeno demais para ser detectado, então ela achou que teve sucesso na minha execução e tempos depois acabou lançando meu projeto em seu próprio nome.
+    Finalmente sei o que aconteceu comigo, e agora preciso do meu último fragmento para enfrentar Terena, e levá-la à justiça!
+    Obrigado por me ajudar! Mas preciso de você mais uma última vez, ache a senha que falta para me completar!
+A última pista é: Busque a sala “Arte na escola” e procure esse símbolo... e me diga quantas bolas salientes tem no anel exterior (Concreto)",
     password: '30',
     redirect_url: 'youdidit',
     count: 0,
