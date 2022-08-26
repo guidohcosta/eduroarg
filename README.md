@@ -1,24 +1,16 @@
-# README
+# EDUROARG
+ARG (Alternative Reality Game, ou Jogo de Realidade Alternativa) que explora os espaços do campus da UNESP de Bauru através de uma narrativa.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Como rodar
+O jogo foi desenvolvido em Ruby on Rails.
+Primeiro instale as dependências:
+```
+bundle install
+```
 
-Things you may want to cover:
+Depois rode o servidor:
+```
+bundle exec puma
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+O site deve estar rodando na porta 3000 (http://localhost:3000)
